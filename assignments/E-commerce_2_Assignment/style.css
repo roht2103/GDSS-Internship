@@ -1,5 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Poppins:wght@300&display=swap');
+
+
 *{
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly   ;
+    align-items: center;
+    height: 5rem;
+    /* width: 100vw; */
+    /* position: fixed; */
+    /* background-color: rgba(250, 235, 215, 0.5); */
+    /* border-bottom: 1px solid; */
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 1rem;
+}
+.nav-brand{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    letter-spacing: 3px;
+}
+
+input{
+    padding: 0.7rem;
+    width: 19rem;
+    background-color: rgb(243, 242, 242);
+    border: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items:center ;  
+}
+
+
+
+nav button{
+    padding: .7rem;
+    background-color: bisque;
+    border: 0px;
+}
+
+.be-authetic{
+    background-image: url(./utils/be-authetic-bg.jpg);
+    background-size: cover;
+    width: 90vw;
+    height: 80vh;
+    margin: 1rem;
+    /* margin-top: 6rem; */
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.be-authetic h1{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 9px;
+}
+.be-authetic p{
+    font-size: 1rem;
+}
+
+.be-authetic button{
+    margin: 1.5rem;
+    padding: .7rem 3rem;
+    cursor: pointer;
+}
+
+.content1{
+    /* border: 1px solid black; */
+    margin: 3rem 0rem;
+    height: 80vh ;
+    width: 80vw;
+}
+
+.content1-desc{
+    /* border: 1px solid red; */
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+
+.content1-desc h3{
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.content1-desc p{
+    color: gray;
+}
+
+.content1-prod{
+    /* border: 1px solid red; */
+    height: 80%;
+    display: flex;
+}
+
+.content1-prod span{
+    width: 33.333%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1-prod span h3{
+    margin-top: 1rem;
+}
+
+hr{
+    width: 100vw;
+    color: rgb(162, 162, 162);
 }
