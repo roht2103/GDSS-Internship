@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .c1{
+            border: 5px solid red;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .c1 div{
+            border: 2px solid black;
+            font-size:30px ;
+            height: 100px;
+            /* flex-shrink: 2; */
+            /* flex-grow: 1; */
+
+        }
+        .a1{
+            /* flex-basis: 200px; */
+            /* width: 200px; */
+            align-self: center;
+        }
+        /* .a2,.a3{
+            flex-grow: 1;
+        } */
+        .a3{
+            /* flex: 5; */
+        }
+        .a4{
+            /* flex-grow: 10; */
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <div class="a1">one</div>
+        <div class="a2">two</div>
+        <div class="a3" >three</div>
+        <div class="a4">four</div>
+        <div class="a5">five</div>
+    </div>
+
+
+</body>
+</html>

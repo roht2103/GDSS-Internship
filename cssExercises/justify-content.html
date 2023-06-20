@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .c1{
+            border: 5px solid;
+            display: flex;
+            height: 400px;
+            flex-wrap: nowrap;
+            align-items: flex-end;
+            align-content:space-evenly;
+
+            /* align-items: flex-start; */
+            /* justify-content: center;
+            flex-direction: row;
+            align-content:flex-start; */
+            /*  */
+
+
+            /* flex-direction: column;      */
+            /* justify-content: flex-end; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: center; */
+        }
+        .c1 div{
+            border: 3px solid red;
+            width: 200px;
+            /* width: fit-content; */
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <div>one</div>
+        <div>two</div>
+        <div >three</div>
+        <div>four</div>
+        <div>five</div>
+    </div>
+<!-- 
+
+(flex-direction:row){justify-content--horizontally}
+(flex-direction:column){justify-content--vertically}
+
+    justify-content:
+    flex-start, flex-end,space-around,space-between,space-evenly,center,right,left
+align-contents: row-ver, column-hr
+align-items: row-hr, column-vr
+
+laign-contents: (works when flex-wrap is used)
+ -->
+
+</body>
+</html>

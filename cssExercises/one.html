@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="one.css" />
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        /* display: flex; */
+      }
+      .c1 {
+        border: 3px solid red;
+        display: flex;
+        justify-content:space-around;
+        /* flex-wrap: wrap; */
+        /* width: 100vw; */
+        /* flex-direction: column-reverse; */
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+        /* height: 400px; */
+      }
+      .c1 div{
+        width: 150px;
+      }
+    
+      div {
+        border: 5px solid;
+        font-weight: bold;
+        /* width: 100px; */
+        /* height: 100px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c1">
+      <div>Hello 1</div>
+      <div>Hello 2</div>
+      <div>Hello 3</div>
+      <div>Hello 4</div>
+      <div>Hello 5</div>
+    </div>
+<!-- 
+display:flex(apply on parent)
+
+flex direction:row(br default)(data on same line)(width is fit content and height is 100%)
+flex direction : column(data on new line)(width is 100% and height is fit content)
+  -->
+</body>
+</html>

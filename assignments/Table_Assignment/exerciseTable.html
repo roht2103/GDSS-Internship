@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main {
+        min-width: 90vw;
+        min-height: 90vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+      table {
+        height: 90%;
+        width: 90%;
+        margin: 1rem;
+      }
+      h1 {
+        text-align: center;
+        padding-top: 4px;
+      }
+    </style>
+    <h1>Table Exrecise</h1>
+    <main>
+      <table border="5px" width="30%" height="30%">
+        <tr align="center">
+          <th rowspan="2"></th>
+          <th colspan="2">Average</th>
+          <th rowspan="2">Red eyes</th>
+        </tr>
+        <tr align="cenetr">
+          <th>height</th>
+          <th>weight</th>
+        </tr>
+        <tr align="center">
+          <th>Male</th>
+          <td>1.9</td>
+          <td>0.005</td>
+          <td>40%</td>
+        </tr>
+        <tr align="center">
+          <th>Female</th>
+          <td>1.7</td>
+          <td>0.003</td>
+          <td>30%</td>
+        </tr>
+      </table>
+
+      <table border="5px" width="30%" height="30%">
+        <tr align="center">
+          <th>product</th>
+          <th>Flavours</th>
+        </tr>
+        <tr align="cenetr">
+          <td rowspan="3">Milk</td>
+          <td>Almond</td>
+        </tr>
+        <tr align="center">
+          <td>Mango</td>
+        </tr>
+        <tr align="center">
+          <td>Chocolate</td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">these are exclusive flavours</td>
+        </tr>
+      </table>
+      <table border="5px" hight="30%" width="30%">
+        <tr>
+          <th>Roll No</th>
+          <th>Name</th>
+          <th>City</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>nikhil</td>
+          <td>nashik</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>ashok</td>
+          <td>pune</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>mukesh</td>
+          <td>mumbai</td>
+        </tr>
+      </table>
+      <table
+        width="30%"
+        height="30%"
+        border="1px"
+        style="border-collapse: collapse"
+      >
+        <tr style="color: red" align="center">
+          <td colspan="3">1</td>
+          <td rowspan="3" colspan="2">2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr style="color: red" align="center">
+          <td rowspan="5">5</td>
+          <td>6</td>
+          <td>7</td>
+          <td colspan="2">8</td>
+        </tr>
+        <tr style="color: red" align="center">
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+        </tr>
+        <tr style="color: red" align="center">
+          <td>13</td>
+          <td rowspan="2" colspan="2">14</td>
+          <td rowspan="3" colspan="2">15</td>
+          <td>16</td>
+        </tr>
+        <tr style="color: red" align="center">
+          <td>17</td>
+          <td>18</td>
+        </tr>
+        <tr style="color: red" align="center">
+          <td rowspan="3">19</td>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+        </tr>
+        <tr style="color: red" align="center">
+          <td>23</td>
+          <td colspan="4">24</td>
+          <td>25</td>
+        </tr>
+        <tr style="color: red" align="center">
+          <td>26</td>
+          <td colspan="5">27</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

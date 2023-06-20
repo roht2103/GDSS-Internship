@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 18vh;
+    width: 100vw;
+    /* border: 7px solid black; */
+    display: block;
+    align-items: center;
+}
+
+.nav1{
+    /* border: 1px solid red; */
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white    ;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-brand{
+    font-family: 'Kaushan Script', cursive;
+    /* font-style: italic; */
+    font-weight: bolder;
+}
+
+.nav2{
+    border-bottom:1px solid gray ;
+    height: 50%;
+    display: flex;
+    flex-grow: 7;
+    align-items: center;
+    padding-left: 14%;
+    /* justify-content: center; */
+    /* background-color: black; */
+    color: black; 
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    margin-left: 1.5rem;
+    /* color: white; */
+    cursor: pointer;
+}
+
+.nav-brand-li{
+    color: rgb(135, 135, 135);
+}
+
+.active2{
+    color: black;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+    padding: 1.18rem 0rem;
+    border-radius: 4px;
+}
+
+.nav2 li{
+    color: rgb(101, 101, 101);
+}
+.nav2 li:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+.active{
+    color: white;
+}
+
+
+
+.nav-brand-li li:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.sign-up{
+    /* border: 1px solid blue; */
+    padding: .5rem;
+    background-color: rgb(81, 81, 255);
+    border-radius: .3rem;
+}
+
+.contents{
+    width: 100vw;
+    height: 82vh;
+    background-color: gainsboro;
+}
