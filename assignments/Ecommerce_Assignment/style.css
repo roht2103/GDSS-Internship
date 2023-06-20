@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
 
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-.main-div{
+.main-div {
     /* border: 2px solid black; */
     height: 100vh;
     width: 100vw;
@@ -17,12 +17,12 @@
 
 
 
-.header{
+.header {
     /* border: 1px solid red; */
-    height: 15vh ;
+    height: 15vh;
 }
 
-header{
+header {
     /* border: 1px solid black; */
     height: 70%;
     background-color: aquamarine;
@@ -30,7 +30,8 @@ header{
     align-items: center;
     justify-content: center;
 }
-nav{
+
+nav {
     /* border: 1px solid blue; */
     height: 30%;
     background-color: rgb(0, 154, 103);
@@ -38,7 +39,8 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.contents{
+
+.contents {
     height: 69vh;
     /* border: 1px solid black; */
     margin: 0.5rem 0rem;
@@ -46,7 +48,7 @@ nav{
     gap: 0.5rem;
 }
 
-.content1{
+.content1 {
     /* border: 1px solid green; */
     width: 20%;
     display: flex;
@@ -54,25 +56,26 @@ nav{
     gap: 0.5rem;
 }
 
-.content1 div{
+.content1 div {
     height: 33.3%;
     padding: 0.5rem;
     /* border: 1px solid yellow; */
 }
-.content1-div1{
+
+.content1-div1 {
     background-color: rgb(77, 204, 254);
 }
 
-.content1-div2{
+.content1-div2 {
     background-color: rgb(0, 122, 170);
 }
 
-.content1-div3{
+.content1-div3 {
     background-color: rgb(0, 119, 255);
 }
 
 
-.content2{
+.content2 {
     /* border: 1px solid red; */
     width: 60%;
     display: flex;
@@ -80,34 +83,37 @@ nav{
     gap: 0.5rem;
 }
 
-.content2 div{
+.content2 div {
     /* border: 1px solid; */
     padding: 1rem;
 }
 
-.content2-div1{
+.content2-div1 {
     height: 20%;
     background-color: rgb(206, 103, 0);
 }
 
-.content2-div2{
+.content2-div2 {
     height: 15%;
     background-color: rgb(255, 147, 75);
 }
-.content2-div3{
+
+.content2-div3 {
     height: 20%;
     background-color: rgb(255, 89, 117);
 }
-.content2-div4{
+
+.content2-div4 {
     height: 15%;
     background-color: rgb(255, 147, 75);
 }
-.content2-div5{
+
+.content2-div5 {
     height: 30%;
     background-color: rgb(255, 105, 68);
 }
 
-.content3{
+.content3 {
     /* border: 1px solid blue; */
     width: 20%;
     display: flex;
@@ -115,57 +121,61 @@ nav{
     gap: 0.5rem;
 }
 
-.content3 div{
+.content3 div {
     /* border: 1px solid; */
 }
 
-.content3-div1{
+.content3-div1 {
     height: 60%;
     display: flex;
     gap: 0.5rem;
 }
 
-.categories{
+.categories {
     width: 50%;
     display: flex;
     flex-direction: column;
     /* gap: 0.5rem; */
 }
 
-.categories div{
+.categories div {
     height: 20%;
 }
 
-.categories-div1{
+.categories-div1 {
     background-color: rgb(255, 200, 0);
     padding: 0.5rem;
 }
-.categories-div2{
+
+.categories-div2 {
     background-color: rgb(255, 228, 50);
 }
-.categories-div3{
+
+.categories-div3 {
     background-color: yellow;
 }
-.categories-div4{
+
+.categories-div4 {
     background-color: rgb(255, 200, 0);
 }
-.categories-div5{
+
+.categories-div5 {
     background-color: rgb(255, 255, 122);
 }
 
-.slide-nav{
+.slide-nav {
     width: 50%;
     padding: 1rem;
     background-color: rgb(255, 228, 50);
 }
 
-.content3-div2{
+.content3-div2 {
     height: 40%;
     padding: 1rem;
     background-color: rgb(255, 200, 0);
 }
 
-footer{
+footer {
     /* border: 1px solid green; */
     height: 12vh;
     display: flex;
