@@ -1,39 +1,185 @@
-/* *{
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-        } */
-header {
-    /* margin: 1rem; */
-    font-size: 1.3rem;
-    height: 20vh;
-    width: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(48, 219, 156);
-}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
 
-.main-nav {
-    /* align-self:baseline; */
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
-    background-color: rgb(0, 105, 47);
-}
-
-h1 {
-    /* border: 1px solid; */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-div {
-    /* margin: 1rem; */
-    margin-top: 0.5rem;
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100vw;
+    padding: 0.5rem;
+    display: block;
+}
 
-    border: 1px solid;
-    height: 80vh;
+
+
+.header {
+    /* border: 1px solid red; */
+    height: 15vh;
+}
+
+header {
+    /* border: 1px solid black; */
+    height: 70%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    /* border: 1px solid blue; */
+    height: 30%;
+    background-color: rgb(0, 154, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents {
+    height: 69vh;
+    /* border: 1px solid black; */
+    margin: 0.5rem 0rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.content1 {
+    /* border: 1px solid green; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.content1 div {
+    height: 33.3%;
+    padding: 0.5rem;
+    /* border: 1px solid yellow; */
+}
+
+.content1-div1 {
+    background-color: rgb(77, 204, 254);
+}
+
+.content1-div2 {
+    background-color: rgb(0, 122, 170);
+}
+
+.content1-div3 {
+    background-color: rgb(0, 119, 255);
+}
+
+
+.content2 {
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.content2 div {
+    /* border: 1px solid; */
+    padding: 1rem;
+}
+
+.content2-div1 {
+    height: 20%;
+    background-color: rgb(206, 103, 0);
+}
+
+.content2-div2 {
+    height: 15%;
+    background-color: rgb(255, 147, 75);
+}
+
+.content2-div3 {
+    height: 20%;
+    background-color: rgb(255, 89, 117);
+}
+
+.content2-div4 {
+    height: 15%;
+    background-color: rgb(255, 147, 75);
+}
+
+.content2-div5 {
+    height: 30%;
+    background-color: rgb(255, 105, 68);
+}
+
+.content3 {
+    /* border: 1px solid blue; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.content3 div {
+    /* border: 1px solid; */
+}
+
+.content3-div1 {
+    height: 60%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.categories {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+}
+
+.categories div {
+    height: 20%;
+}
+
+.categories-div1 {
+    background-color: rgb(255, 200, 0);
+    padding: 0.5rem;
+}
+
+.categories-div2 {
+    background-color: rgb(255, 228, 50);
+}
+
+.categories-div3 {
+    background-color: yellow;
+}
+
+.categories-div4 {
+    background-color: rgb(255, 200, 0);
+}
+
+.categories-div5 {
+    background-color: rgb(255, 255, 122);
+}
+
+.slide-nav {
+    width: 50%;
+    padding: 1rem;
+    background-color: rgb(255, 228, 50);
+}
+
+.content3-div2 {
+    height: 40%;
+    padding: 1rem;
+    background-color: rgb(255, 200, 0);
+}
+
+footer {
+    /* border: 1px solid green; */
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 154, 103);
 }
