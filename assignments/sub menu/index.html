@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>menu</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .menu{
-            /* border: 2px solid black; */
-            background-color: rgb(193, 193, 193);
-            color: black;
-        }
-        .menu ul{
-            /* border: 2px solid red; */
-            list-style: none;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-        }
-        .menu ul li{
-            /* border: 2px solid blue; */
-        }
-        .menu ul li a{
-            width: 8rem;
-            display: block;
-            text-align: center;
-            /* border: 2px solid yellow; */
-            /* width: 3rem; */
-            text-decoration: none;
-            color: black;
-            /* line-height: normal; */
-            padding: 0.5rem;
-        }
-        .menu ul li a:hover{
-            background-color: black;
-            color: white;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .menu {
+        /* border: 2px solid black; */
+        background-color: rgb(193, 193, 193);
+        color: black;
+      }
+      .menu ul {
+        /* border: 2px solid red; */
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .menu ul li {
+        /* border: 2px solid blue; */
+      }
+      .menu ul li a {
+        width: 8rem;
+        display: block;
+        text-align: center;
+        /* border: 2px solid yellow; */
+        /* width: 3rem; */
+        text-decoration: none;
+        color: black;
+        /* line-height: normal; */
+        padding: 0.5rem;
+      }
+      .menu ul li a:hover {
+        background-color: black;
+        color: white;
+      }
 
+      .menu ul li ul {
+        display: none;
+      }
 
-
-        .menu ul li ul{
-            display: none;
-        }
-
-        .menu ul li:hover ul{
-            display: block;
-            position: absolute;
-            background-color: rgb(194, 194, 194);
-        }
+      .menu ul li:hover ul {
+        display: block;
+        position: absolute;
+        background-color: rgb(194, 194, 194);
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="menu">
-        <ul>
-            <li><a href="#">Home</a> </li>
-            <li><a class="product" href="#">Products</a>
-                <ul>
-                    <li><a href="#">car</a></li>
-                    <li><a href="#">Mobile</a></li>
-                    <li><a href="#">Laptop</a></li>
-                    <li><a href="#">Bike</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">AboutUs</a></li>
-            <li><a href="#">ContactUs</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a class="product" href="#">Products</a>
+          <ul>
+            <li><a href="#">car</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Laptop</a></li>
+            <li><a href="#">Bike</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">AboutUs</a></li>
+        <li><a href="#">ContactUs</a></li>
+      </ul>
     </div>
-</body>
+  </body>
 </html>
