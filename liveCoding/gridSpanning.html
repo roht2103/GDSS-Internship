@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid spanning</title>
+    <style>
+        .box{
+            /* border: 3px solid red; */
+            height: 500px;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .box div{
+            /* border: 2px solid blue; */
+            background-color: red;
+            text-align: center;
+            line-height: 100%;
+        }
+        .d1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .d2{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="d1">one</div>
+        <div class="d2">two </div>
+        <div class="d3">three</div>
+        <div class="d4">four</div>
+        
+    </div>
+</body>
+</html>
