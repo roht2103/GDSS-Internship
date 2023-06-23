@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid spanning</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        border: 5px solid gray;
+        /* height: 100%; */
+        width: 80vw;
+      }
+      .container .d1 {
+        background-color: #52a7f8;
+        height: 6vh;
+      }
+      .container .d2 {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+      }
+      .container .d2 .sb1 {
+        height: 26%;
+        width: 4%;
+        background-color: rgb(230, 230, 230);
+      }
+      .container .d2 .sb2 {
+        width: 30%;
+        height: 18%;
+        background-color: rgb(230, 230, 230);
+      }
+      .container .d3 {
+        height: 35vh;
+        background-color: #6fbe42;
+      }
+      .container .d4 {
+        height: 25vh;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .container .d4 .sb1 {
+        background-color: rgb(230, 230, 230);
+        height: 15%;
+        margin-top: 1rem;
+        width: 30vw;
+      }
+      .container .d4 .sb2 {
+        width: 70%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      .container .d4 .sb2 div {
+        height: 85%;
+        /* border: 2px solid; */
+        width: 40%;
+        background-color: rgb(230, 230, 230);
+      }
+      .container .d5 {
+        height: 45vh;
+        background-color: #b46ae3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container .d5 .sb{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 1px solid; */
+        height: 90%;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
+      }
+      .container .d5 .sb .sb-div{
+        height: 90%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        padding-bottom: .5rem;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .s-div{
+        background-color: rgb(230, 230, 230);
+        height: 10%;
+        width: 90%;
+      }
+      .b-div{
+        width: 90%;
+        background-color: rgb(230, 230, 230);
+        height: 35%;
+      }
+      .container .d6 {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+      .container .d6 .sb1 {
+        background-color: rgb(230, 230, 230);
+        height: 10%;
+        width: 30%;
+      }
+      .container .d6 .sb2 {
+        background-color: rgb(230, 230, 230);
+        height: 75%;
+        width: 50%;
+      }
+      .container .d7 {
+        height: 45vh;
+        /* border: 1px solid; */
+        display: grid;
+        grid-template-rows: 6fr 1fr;
+        grid-gap: 10px;
+      }
+      .container .d7 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+      }
+      .container .d7 .sb1 {
+        background-color: #f39019;
+      }
+      .container .d7 .sb2 {
+        background-color: #dd6a0f;
+      }
+      .container .d7 .sb3{
+        background-color: #0265BB;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        /* height: 10%; */
+      }
+      .sbd1{
+        /* border: 1px solid; */
+        height: 13%;
+        width: 40%;
+        background-color: white;
+      }
+      .sbd2{
+        background-color: white;
+        height: 70%;
+        width: 70%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d1"></div>
+      <div class="d2">
+        <div class="sb1"></div>
+        <div class="sb2"></div>
+      </div>
+      <div class="d3"></div>
+      <div class="d4">
+        <div class="sb1"></div>
+        <div class="sb2">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="d5">
+        <div class="sb">
+            <div class="sb-div">
+                <div class="s-div"></div>
+                <div class="b-div"></div>
+            </div>
+            <div class="sb-div">
+                <div class="s-div"></div>
+                <div class="b-div"></div>
+            </div>
+            <div class="sb-div">
+                <div class="s-div"></div>
+                <div class="b-div"></div>
+            </div>
+        </div>
+      </div>
+      <div class="d6">
+        <div class="sb1"></div>
+        <div class="sb2"></div>
+      </div>
+
+      <div class="d7">
+        <div class="sb1">
+            <div class="sbd1"></div>
+            <div class="sbd2"></div>
+        </div>
+        <div class="sb2">
+            <div class="sbd1"></div>
+            <div class="sbd2"></div>
+        </div>
+        <div class="sb3"></div>
+      </div>
+    </div>
+  </body>
+</html>
