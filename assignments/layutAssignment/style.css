@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(54, 53, 53);
+}
+
+header{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: .5rem;
+}
+
+header .brand{
+    font-size: 2rem;
+    font-style: italic;
+}
+.number{
+    font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    /* border: 1px solid; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.612),#7d898f,rgba(255, 255, 255, 0.299));
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+nav ul li{
+    padding: 1rem;
+    border-left: 1px solid black;
+    border-right:1px solid black ;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    height: 50vh;
+    width: 95%;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 15px;
+    padding: 1rem;
+    /* background-color: white; */
+}
+
+.hero div{
+    /* border: 1px solid yellow; */
+}
+
+.hero .hero-img{
+    background-image: url(colin-horn-fR9U2S31Exs-unsplash.jpg);
+    background-size: cover;
+    padding: .5rem;
+    width: 40%;
+    border: 10px solid white;
+}
+
+.hero .hero-info{
+    width: 60%;
+    /* border: 10px solid white; */
+
+    /* padding: 1rem; */
+    background-image: linear-gradient(white,rgba(40, 38, 38, 0.596),rgba(91, 83, 83, 0.299));
+
+}
+
+.hero-info-heading{
+    background-image: linear-gradient(rgba(255, 255, 137, 0.37),rgb(255, 255, 0));
+    padding: .5rem;
+    height: 15%;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.hero .hero-info section{
+    margin: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.items{
+    height: 50vh;
+    /* border: 2px solid red; */
+    margin: 2.3rem;
+    padding: .5REM;
+}
+
+ .heading{
+    color: rgb(210, 210, 0);
+    font-size: 1.3rem;
+}
+
+.items .item-contents{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+/* .items .item-contents div{
+    border: 2px solid blue;
+    
+} */
+.items .item-contents .form{
+    height: 27rem;
+    background-color: white;
+    border: 3px solid black;
+}
+
+ .content-heading{
+    padding: .5rem;
+    border-bottom: 3px solid black;
+    /* height: 10%; */
+    background-image: linear-gradient(rgba(255, 255, 137, 0.37),rgb(255, 255, 0));
+
+}
+ .content-img{
+    /* border: 2px solid green; */
+    height: 10rem;
+    background-image: url(colin-horn-fR9U2S31Exs-unsplash.jpg);
+    background-size: contain;
+}
+
+.content-info{
+    
+    margin: 1.4rem;
+}
+
+button{
+    margin-top: 1rem;
+    float: right;
+    background-image: linear-gradient(rgba(255, 255, 137, 0.37),rgb(255, 255, 0));
+    padding: .5rem;
+    border-radius: 8px;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
