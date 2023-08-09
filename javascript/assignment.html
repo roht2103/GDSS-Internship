@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        button{
+            color: black;
+            border: 1px solid;
+            padding: .5rem 1rem;
+            background-color: white;
+            border-radius: .5rem;
+        }
+        button:hover{
+            background-color: cyan;
+            color: white;
+            transition: .2s;
+            border: 1px solid cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="c1">Rohit</h1>
+    <button id="btn1" onclick="toRed()">Red</button>
+    <button id="btn2" onclick="toGreen()">Green</button>
+    <button id="btn3" onclick="toBlue()">Blue</button>
+
+    <script>
+        let btn1=document.getElementById("btn1")
+        let btn2=document.getElementById("btn2")
+        let btn3=document.getElementById("btn3")
+        let c1=document.querySelector(".c1");
+        console.log(c1.innerHTML);
+
+        function toRed(){
+            c1.style="color:red"
+            btn1.style.color="red"
+            btn2.style.color="black"
+            btn3.style.color="black"
+        }
+        function toBlue(){
+            c1.style="color:blue"
+            btn1.style.color="black"
+            btn2.style.color="black"
+            btn3.style.color="blue"
+
+        }
+        function toGreen(){
+            c1.style="color:green"
+            btn1.style.color="black"
+            btn2.style.color="green"
+            btn3.style.color="black"
+        }
+    </script>
+</body>
+</html>

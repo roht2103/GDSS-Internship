@@ -1,0 +1,27 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>hello! Rohit</h1>
+        <h2>KKW</h2>
+        <h1>Welcome</h1>
+        <h1>Byee</h1>
+        <script>
+            let x=document.getElementsByTagName("h1")
+            document.write("using for loop"+"</br></br>")
+            for (let index = 0; index < x.length; index++) {
+                document.write(x[index].innerHTML+"</br>")
+            }
+
+            let elements = Array.from(x); 
+        document.write("</br><//br>"+"using forEach" + "<br><br>");
+        elements.forEach(function(element) {
+            document.write("<h1>"+element.innerHTML+"</h1>");
+        });
+        </script>
+    </body>
+    </html>

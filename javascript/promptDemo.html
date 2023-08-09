@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <input type="number" name="" id="ip1">
+        <input type="number" name="" id="ip2">
+        <button onclick="fun()">calculate</button>
+    </form>
+
+    <script>
+        let a=document.getElementById("ip1")
+        let b=document.getElementById("ip2")
+        console.log(a,b);
+
+        function fun(){
+            if (a.value=="") {
+                a.style.color="red"
+                a.value="0"
+            }
+            if (b.value=="") {
+                b.value="0"
+                b.style.color="red"
+            }else{
+                a.style.color="black"
+                b.style.color="black"
+            }
+            alert(Number(a.value)+Number(b.value));
+        }
+    </script>
+</body>
+</html>
